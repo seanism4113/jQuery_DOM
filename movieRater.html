@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="movieStyle.css">
+</head>
+<body>
+    <form>
+        <div id="formContainer">
+            <label for="movieTitle">Enter movie title:</label>
+            <input type="text" id="movieTitle" placeholder="Title" minlength="2">
+            <label for="rating">Enter movie rating:</label>
+            <input id="rating" type="number" min="0" max="10" placeholder='rating'></form>
+            <button id="addMovieButton">Add movie</button>
+        </div>
+    </form>
+
+    <h1>Movie List</h1>
+    <ul id="movieList">
+
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="movieapp.js"></script>
+</body>
+</html>
